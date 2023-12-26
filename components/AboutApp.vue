@@ -1,5 +1,5 @@
 <template>
-  <section class="px-10 md:px-0 bg-neutral-50">
+  <section class="px-10 md:px-0 py-24 bg-neutral-50">
     <div class="container mx-auto">
       <div class="flex justify-center">
         <div class="text-center font-sans w-[600px]">

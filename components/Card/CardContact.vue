@@ -1,7 +1,7 @@
 <template>
-  <div class="card px-10 py-12 space-y-4 text-center bg-slate-300">
-    <div class="">
-      <img src="" alt="" />
+  <div class="card px-10 py-12 space-y-4 text-center bg-white">
+    <div class="flex justify-center">
+      <img :src="icon" alt="" />
     </div>
     <div class="">
       <h1>georgia.young@example.com</h1>
@@ -15,3 +15,10 @@
     </button>
   </div>
 </template>
+<script>
+export default {
+  props: {
+    icon: null,
+  },
+};
+</script>

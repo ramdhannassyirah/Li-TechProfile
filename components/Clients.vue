@@ -28,8 +28,8 @@
       </div>
     </div>
   </section>
-  <section class="">
-    <div class="container mx-auto bg-[#166a7aff] px-12 py-8">
+  <section>
+    <div class="container mx-auto bg-[#166a7aff] relative px-12 py-8">
       <div class="flex justify-around flex-wrap">
         <div class="text-white text-2xl w-60">
           <h1>Subscribe For Latest Newsletter</h1>
@@ -46,8 +46,6 @@
         </div>
       </div>
     </div>
-    <div
-      class="h-[77px] relative -top-14 -z-10 bg-slate-800 hidden md:block"
-    ></div>
+    <div class="h-[77px] -mt-14 -z-20 bg-slate-800 hidden md:block"></div>
   </section>
 </template>

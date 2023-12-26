@@ -1,5 +1,5 @@
 <template>
-  <section class="px-10 md:px-0 bg-neutral-50">
+  <section class="px-10 md:px-0" id="Pricing">
     <div class="container mx-auto py-20">
       <div class="flex justify-center">
         <div class="text-center font-sans w-[600px]">
@@ -38,6 +38,11 @@
     </div>
   </section>
 </template>
+<style>
+section {
+  background-color: #f3f3f3;
+}
+</style>
 <script>
 import MCard from "./Card/MCard.vue";
 import LCard from "./Card/LCard.vue";

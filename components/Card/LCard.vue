@@ -20,7 +20,7 @@
     <div class="w-[230px] h-[138px] relative">
       <img
         class="w-[230px] h-[138px] left-0 top-0 absolute"
-        src="https://via.placeholder.com/230x138"
+        src="https://source.unsplash.com/random/230x138"
       />
     </div>
   </div>

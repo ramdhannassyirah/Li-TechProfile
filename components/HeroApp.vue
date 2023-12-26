@@ -2,7 +2,7 @@
   <section>
     <header class="header">
       <AppHeader />
-      <div class="container mx-auto mt-28">
+      <div class="container mx-auto mt-28 px-10 md:px-0">
         <div class="text-center md:text-left font-sans">
           <h1 class="font-bold text-4xl md:text-6xl md:w-[509px]">
             EMPOWER YOUR BUSINESS

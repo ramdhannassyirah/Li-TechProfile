@@ -6,3 +6,9 @@
   <Contact />
   <AppFooter />
 </template>
+<style>
+* {
+  scroll-behavior: smooth;
+  font-family: "arial";
+}
+</style>

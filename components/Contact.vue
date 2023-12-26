@@ -1,7 +1,7 @@
 <template>
   <section class="">
     <div class="container mx-auto flex justify-center">
-      <div class="text-center font-sans w-80">
+      <div class="text-center font-sans w-[600px]">
         <h1 class="font-bold text-4xl">Get In Touch</h1>
         <p class="text-xl my-10">
           Problems trying to resolve the conflict between the two major realms

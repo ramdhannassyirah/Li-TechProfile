@@ -14,15 +14,20 @@
         <img
           src="../assets/icon/navbar/toggler-icon.svg"
           alt=""
-          @click="isCreating = !isCreating"
+          @click="toggleCreating"
+          class="transition-transform transform hover:scale-110"
         />
       </div>
     </nav>
   </div>
   <!-- Mobile Navbar -->
   <div
-    class="flex flex-col w-screen text-center py-20 gap-7 absolute md:hidden bg-white"
-    v-if="!isCreating"
+    class="flex flex-col w-screen text-center py-20 gap-7 absolute md:hidden bg-white transition-opacity duration-500 ease-in-out"
+    :class="{
+      'opacity-100': isCreating,
+      'opacity-0': !isCreating,
+      invisible: !isCreating,
+    }"
   >
     <NuxtLink to="/about">Home</NuxtLink>
     <a href="">Product</a>
@@ -34,8 +39,13 @@
 export default {
   data() {
     return {
-      isCreating: true,
+      isCreating: false,
     };
+  },
+  methods: {
+    toggleCreating() {
+      this.isCreating = !this.isCreating;
+    },
   },
 };
 </script>
